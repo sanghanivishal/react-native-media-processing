@@ -1,6 +1,10 @@
 
-import { NativeModules } from 'react-native';
+import VideoTools from './src/video';
+import AudioTools from './src/audio';
+import ImageTools from './src/image';
 
-const { RNMediaProcessing } = NativeModules;
-
-export default RNMediaProcessing;
+export {
+   AudioTools,
+   VideoTools,
+   ImageTools
+};
