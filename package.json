@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sanghanivishal/react-native-media-tools"
+    "url": "https://github.com/sanghanivishal/react-native-media-processing"
   },
   "keywords": [
     "react",
@@ -46,7 +46,7 @@
   ],
   "author": "Vishal Sanghani <vishsanghani@gmail.com>",
   "bugs": {
-    "url": "https://github.com/sanghanivishal/react-native-media-tools/issues"
+    "url": "https://github.com/sanghanivishal/react-native-media-processing/issues"
   },
   "license": "MIT",
   "peerDependencies": {
