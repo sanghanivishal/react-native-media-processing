@@ -1,11 +1,9 @@
 
-#if __has_include("RCTBridgeModule.h")
-#import "RCTBridgeModule.h"
-#else
+#import <Foundation/Foundation.h>
+#import <mobileffmpeg/MobileFFmpegConfig.h>
 #import <React/RCTBridgeModule.h>
-#endif
+#import <React/RCTEventEmitter.h>
 
-@interface RNMediaProcessing : NSObject <RCTBridgeModule>
+@interface RNMediaProcessing : RCTEventEmitter<RCTBridgeModule,LogDelegate,StatisticsDelegate>
 
 @end
-  
