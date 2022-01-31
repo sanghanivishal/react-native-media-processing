@@ -7,12 +7,59 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanghanivishal/react-native-media-tools"
+  },
   "keywords": [
-    "react-native"
+    "react",
+    "react-native",
+    "ios",
+    "mobile",
+    "android",
+    "video",
+    "audio",
+    "image",
+    "processing",
+    "edit",
+    "tools",
+    "ffmpeg",
+    "compression",
+    "video conversion",
+    "android conversion",
+    "image conversion",
+    "merging",
+    "trimming",
+    "extraction",
+    "convesion",
+    "crop",
+    "croping",
+    "watermark",
+    "videowatermark",
+    "rotate",
+    "rotating",
+    "sacle",
+    "media",
+    "videoedit",
+    "audiodit",
+    "imageedit"
   ],
-  "author": "",
-  "license": "",
+  "author": "Vishal Sanghani <vishsanghani@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/sanghanivishal/react-native-media-tools/issues"
+  },
+  "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"
-  }
+  },
+  "files": [
+    "android",
+    "ios",
+    "src",
+    "index.js",
+    "RNMediaProcessing.podspec",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ]
 }
