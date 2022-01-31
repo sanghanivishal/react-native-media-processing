@@ -32,5 +32,6 @@ repositories {
 
 dependencies {
     compile 'com.facebook.react:react-native:+'
+    implementation 'com.arthenica:mobile-ffmpeg-full-gpl:4.4'
 }
   
