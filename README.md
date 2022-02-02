@@ -53,7 +53,6 @@ const imageTools = new ImageTools("/local/file/path");
 // Get details about the image
 imageTools.getDetails().then(details => {
    console.log("Size: " + details.size);
-   console.log("Duration: " + details.duration);
    // Etc.
 });
 ```
